@@ -1,0 +1,17 @@
+<p>employee-card works!</p>
+
+<div class="card">
+  <img
+    class="card-image"
+    src="https://via.placeholder.com/150"
+    alt="Card Image"
+  />
+  <div class="card-content">
+    <h3 class="card-title">{{ employee.name }}</h3>
+    <p class="card-description">
+      {{ employee.email }} <br />
+      {{ employee.phone }}
+    </p>
+    <button class="card-button" (click)="handleClick()">Learn More</button>
+  </div>
+</div>

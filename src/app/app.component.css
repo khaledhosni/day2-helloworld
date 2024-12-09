@@ -1,0 +1,14 @@
+
+.h1{
+
+    font-size: 30;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.header{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
